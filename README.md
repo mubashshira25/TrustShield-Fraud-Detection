@@ -1,5 +1,5 @@
-.# 🛡️ TrustShield
-### Explainable Financial Transaction Fraud Detection
+   <h1>🛡️ TrustShield</h1>
+Explainable Financial Transaction Fraud Detection
 
 **Intelligent transaction monitoring powered by machine learning.**
 
