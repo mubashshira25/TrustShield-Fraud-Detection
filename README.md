@@ -88,7 +88,7 @@ The application demonstrates two decision categories:
 
 <div align="center">
 
-<img src="./docs/images/trustshield-techstack.gif" alt="TrustShield animated technology stack showing React, Node.js, Express, Python, FastAPI, Scikit-learn and MongoDB" width="100%" />
+<img src="./docs/TrustShield Progress Arc Animation.gif" alt="TrustShield animated technology stack showing React, Node.js, Express, Python, FastAPI, Scikit-learn and MongoDB" width="100%" />
 
 **TRUSTSHIELD · TECHNOLOGY ECOSYSTEM**
 
