@@ -35,6 +35,23 @@ The application evaluates transaction information and produces:
 - Stored transaction prediction history
 
 The project uses synthetic financial transaction data for demonstration and learning.
+## Technology Stack
+
+### Technology Composition
+
+<div align="center">
+
+<img
+  src="./TrustShield/docs/images/TrustShield-animation.gif"
+  alt="TrustShield animated technology ecosystem"
+  width="100%"
+/>
+
+**TRUSTSHIELD · TECHNOLOGY ECOSYSTEM**
+
+<sub>Animated visualization of the technologies used across the application. Visual percentages, if displayed, are illustrative and do not represent live system telemetry.</sub>
+
+</div>
 
 ## Key Features
 
@@ -82,23 +99,6 @@ The application demonstrates two decision categories:
 
 ---
 
-## Technology Stack
-
-### Animated Technology Composition
-
-<div align="center">
-
-<img
-  src="./TrustShield/docs/images/TrustShield-animation.gif"
-  alt="TrustShield animated technology ecosystem"
-  width="100%"
-/>
-
-**TRUSTSHIELD · TECHNOLOGY ECOSYSTEM**
-
-<sub>Animated visualization of the technologies used across the application. Visual percentages, if displayed, are illustrative and do not represent live system telemetry.</sub>
-
-</div>
 
 ### Frontend
 
