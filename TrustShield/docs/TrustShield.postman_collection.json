@@ -1,0 +1,39 @@
+{
+  "info": {
+    "name": "TrustShield API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5002/api/health"
+      }
+    },
+    {
+      "name": "Analyze transaction",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"amount\": 249.99, \"currency\": \"USD\", \"country\": \"US\", \"device\": \"known\", \"ipRisk\": 18, \"accountAgeDays\": 240, \"failedAttempts\": 0}"
+        },
+        "url": "http://localhost:5002/api/v1/transactions/analyze"
+      }
+    },
+    {
+      "name": "List transactions",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5002/api/v1/transactions"
+      }
+    }
+  ]
+}

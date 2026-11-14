@@ -1,0 +1,13 @@
+import "dotenv/config";
+import express from "express";
+import cors from "cors";
+import {connectDB} from "./config/db.js";
+import routes from "./routes/transactionRoutes.js";
+const app=express();
+app.use(cors({origin:process.env.CLIENT_ORIGIN||"http://localhost:5174"}));
+app.use(express.json());
+app.get("/api/health",(req,res)=>res.json({status:"ok",service:"trustshield-api"}));
+app.use("/api/v1/transactions",routes);
+app.use((err,req,res,next)=>{console.error(err);res.status(500).json({message:"Internal server error"});});
+const port=process.env.PORT||5002;
+connectDB().then(()=>app.listen(port,()=>console.log(`TrustShield API listening on ${port}`))).catch(e=>{console.error(e);process.exit(1);});

@@ -1,0 +1,1 @@
+import axios from"axios";const api=axios.create({baseURL:import.meta.env.VITE_API_URL||"http://localhost:5002/api"});export const analyze=p=>api.post("/v1/transactions/analyze",p);export const list=()=>api.get("/v1/transactions");
